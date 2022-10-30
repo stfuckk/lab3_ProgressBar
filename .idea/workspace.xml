@@ -48,9 +48,6 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="JavaFxApplication" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -64,29 +61,26 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="2GFe4TDqdZnp39WxhGy2JWdgQyJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="OverrideImplement.combined" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1" />
-    <property name="recentsLimit" value="5" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "G:/Labs/lab3_ProgressBar"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
@@ -167,6 +161,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -184,46 +179,19 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="241" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1666594751677">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="241" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1666594751677" />
-    <state x="520" y="235" key="FileChooserDialogImpl" timestamp="1666594301254">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="520" y="235" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1666594301254" />
-    <state width="886" height="221" key="GridCell.Tab.0.bottom" timestamp="1666597937674">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="886" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1666597937674" />
-    <state width="886" height="221" key="GridCell.Tab.0.center" timestamp="1666597937674">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="886" height="221" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1666597937674" />
-    <state width="886" height="221" key="GridCell.Tab.0.left" timestamp="1666597937674">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="886" height="221" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1666597937674" />
-    <state width="886" height="221" key="GridCell.Tab.0.right" timestamp="1666597937674">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="886" height="221" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1666597937674" />
-    <state x="571" y="304" key="com.intellij.ide.util.TipDialog" timestamp="1666593769465">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="571" y="304" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1666593769465" />
-    <state x="566" y="179" width="787" height="682" key="find.popup" timestamp="1665988594549">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="566" y="179" width="787" height="682" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1665988594549" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1665989909238">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1665989909238" />
   </component>
 </project>
