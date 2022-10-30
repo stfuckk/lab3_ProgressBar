@@ -35,27 +35,27 @@ public class HelloController {
 
     //MyThreads progressThread = new MyThreads();
 
-
+    private boolean isRunning = false;
     @FXML
     private void StartProgress(){
         /*boolean a = false;
         while (!a){
             pBar.setProgress(pBar.getProgress() + 1);
         }*/
-
+        if (isRunning){
         ModelAPI model = new Model();
-        model.asyncCalcProgress(10000, new Updatable() {
+        model.asyncCalcProgress(1000, new Updatable() {
             @Override
             public void update(double value) {
                 Platform.runLater(new Runnable() {
-
                     @Override
                     public void run() {
                         Thread tInner = Thread.currentThread();
-                        pBar.setProgress(model.calcProgress(value, 10000));
+                        pBar.setProgress(model.calcProgress(value, 1000));
                     }
                 });
             }
         });
+        }
     }
 }

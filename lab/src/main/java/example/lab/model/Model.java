@@ -15,12 +15,13 @@ class T implements Runnable{
         t.start();
     }
 
+
     public void run(){
         Thread t = Thread.currentThread();
         for(double i=0; i<max; i++){
             updater.update(i);
             System.out.println("i: " + i);
-            try {Thread.sleep(5);} catch (InterruptedException e) { e.printStackTrace();}
+            try {Thread.sleep(20);} catch (InterruptedException e) { e.printStackTrace();}
         }
     }
 }
