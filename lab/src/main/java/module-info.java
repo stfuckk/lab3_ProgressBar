@@ -5,4 +5,6 @@ module example.lab {
 
     opens example.lab to javafx.fxml;
     exports example.lab;
+    exports example.lab.Controller;
+    opens example.lab.Controller to javafx.fxml;
 }
