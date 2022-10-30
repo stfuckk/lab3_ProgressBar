@@ -17,7 +17,7 @@ public class HelloApplication extends Application {
         stage.setResizable(false);
         stage.show();
     }
-
+s
     public static void main(String[] args) {
         launch();
     }
