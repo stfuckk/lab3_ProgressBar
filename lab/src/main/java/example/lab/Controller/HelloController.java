@@ -38,6 +38,11 @@ public class HelloController {
 
     @FXML
     private void StartProgress(){
+        /*boolean a = false;
+        while (!a){
+            pBar.setProgress(pBar.getProgress() + 1);
+        }*/
+
         ModelAPI model = new Model();
         model.asyncCalcProgress(10000, new Updatable() {
             @Override
