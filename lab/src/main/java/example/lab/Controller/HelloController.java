@@ -2,6 +2,7 @@ package example.lab.Controller;
 
 import javafx.application.Platform;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
 import example.lab.model.Model;
@@ -34,7 +35,8 @@ public class HelloController {
     });*/
 
     //MyThreads progressThread = new MyThreads();
-
+    @FXML
+    private Button startButton;
     private boolean isRunning = false;
     @FXML
     private void StartProgress(){
@@ -42,7 +44,9 @@ public class HelloController {
         while (!a){
             pBar.setProgress(pBar.getProgress() + 1);
         }*/
-        if (isRunning){
+
+        if (!isRunning){
+            isRunning = true;
         ModelAPI model = new Model();
         model.asyncCalcProgress(1000, new Updatable() {
             @Override
@@ -58,4 +62,25 @@ public class HelloController {
         });
         }
     }
+    /*@FXML
+    private Button pauseButton;
+
+    @FXML
+    private void PauseProgress(){
+        if(pauseButton.getText().equals("Пауза")){
+            ModelAPI model = new Model();
+            model.asyncCalcProgress(1000, new Updatable() {
+                @Override
+                public void update(double value) {
+                    Platform.runLater(new Runnable() {
+                        @Override
+                        public void run() {
+                            try{synchronized (System.out){System.out.wait();}}
+                                catch (InterruptedException e){throw new RuntimeException(e);}
+                        }
+                    });
+                }
+            });
+        }
+    }*/
 }
