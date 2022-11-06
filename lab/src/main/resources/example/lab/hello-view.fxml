@@ -24,12 +24,12 @@
                   <Font name="System Bold Italic" size="43.0" />
                </font>
             </Text>
-            <Button fx:id="pauseButton" layoutX="286.0" layoutY="165.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="270.0" text="Пауза" textAlignment="JUSTIFY">
+            <Button fx:id="pauseButton" layoutX="286.0" layoutY="165.0" mnemonicParsing="false" onAction="#PauseProgress" prefHeight="69.0" prefWidth="270.0" text="Пауза" textAlignment="JUSTIFY">
                <font>
                   <Font name="Arial Black" size="32.0" />
                </font>
             </Button>
-            <Button fx:id="StopButton" layoutX="634.0" layoutY="165.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="183.0" text="Стоп" textAlignment="JUSTIFY">
+            <Button fx:id="stopButton" layoutX="634.0" layoutY="165.0" mnemonicParsing="false" onAction="#StopProgress" prefHeight="57.0" prefWidth="183.0" text="Стоп" textAlignment="JUSTIFY">
                <font>
                   <Font name="Arial Black" size="32.0" />
                </font>
